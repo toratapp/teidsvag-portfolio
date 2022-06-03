@@ -1,0 +1,38 @@
+body {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFF;
+    background: #333333;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto Slab", "Courier New", monospace;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+header {
+    max-width: 1600px;
+    margin: 0px auto;
+    background: #E4FFE5;
+    padding: 25px;
+}
+
+.logo {
+    width: 163px;
+    height: auto;
+}
+
+.welcome {
+    margin: 25px;
+    max-width: 1600px;
+}
