@@ -1,3 +1,5 @@
+@import "imports/links.css";
+
 body {
     font-family: "Inter", Helvetica, sans-serif;
     font-weight: 400;
@@ -21,10 +23,14 @@ h1 {
 }
 
 header {
-    max-width: 1600px;
     margin: 0px auto;
     background: #E4FFE5;
     padding: 25px;
+}
+
+.logo-container {
+    max-width: 1600px;
+    margin: auto;
 }
 
 .logo {
@@ -35,4 +41,80 @@ header {
 .welcome {
     margin: 25px;
     max-width: 1600px;
+}
+
+.welcome h1 {
+    margin: 40px 0 20px 0;
+}
+
+.welcome p {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.cards {
+    margin: 25px;
+    max-width: 1600px;
+}
+
+.cards h2 {
+    margin: 0 0 20px 0;
+}
+
+.cards p {
+    margin: 15px 0;
+}
+
+.cards a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card {
+    background: #4D4D4D;
+    padding: 25px 25px 8px 25px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.card-2, .card-3 {
+    margin-top: 50px;
+}
+
+.card-3 {
+    margin-bottom: 70px;
+}
+
+footer {
+    background: #E4FFE5;
+    color: #333333;
+    margin: 0;
+    padding: 30px 25px 10px 25px;
+}
+
+footer a,
+footer p {
+    font-weight: 300;
+}
+
+.email {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.email a {
+    font-size: 1rem;
+}
+
+.email i {
+    font-size: 1.8rem;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0;
 }

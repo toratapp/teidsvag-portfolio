@@ -1,0 +1,45 @@
+@media (min-width: 900px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .card-2, .card-3 {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        font-size: 1.3em;
+    }
+
+    .logo {
+        width: 210px;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    .text-link {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (min-width: 1650px) {
+    .welcome {
+        margin: auto;
+    }
+
+    .cards {
+        margin: 25px auto;
+    }
+
+}

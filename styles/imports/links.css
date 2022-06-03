@@ -1,0 +1,34 @@
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+.text-link {
+    color: #E4FFE5;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.text-link:visited {
+    color: #E4FFE5;
+}
+
+footer a {
+    color: #333333;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #333333;
+}
