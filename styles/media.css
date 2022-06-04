@@ -33,13 +33,23 @@
 
 }
 
+@media (min-width: 1550px) {
+    .cards {
+        gap: 100px;
+    }
+}
+
 @media (min-width: 1650px) {
     .welcome {
         margin: auto;
     }
 
-    .cards {
-        margin: 25px auto;
+    .welcome h1 {
+        margin: 70px 0 20px 0;
     }
 
+    .cards {
+        margin: 50px auto;
+        gap: 120px;
+    }
 }

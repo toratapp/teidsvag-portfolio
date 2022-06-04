@@ -26,6 +26,7 @@ header {
     margin: 0px auto;
     background: #E4FFE5;
     padding: 25px;
+    box-shadow: 0px 3px 17px 6px rgba(0, 0, 0, 0.2);
 }
 
 .logo-container {
