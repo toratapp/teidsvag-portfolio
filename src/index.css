@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings:
+    "slnt" 0;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
