@@ -8,6 +8,9 @@ module.exports = {
     fontFamily: {
       "sans": ["Inter", "Helvetica", "Arial", "sans-serif"],
     },
+    colors: {
+      "primary": "#E4FFE5",
+    },
     extend: {},
   },
   plugins: [],

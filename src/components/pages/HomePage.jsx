@@ -1,6 +1,12 @@
+import AboutMe from "../homePageContent/AboutMe";
+import Welcome from "../homePageContent/Welcome";
+
 function HomePage() {
   return ( 
-    <p>homepage</p>
+    <div className="mt-28 min-h-screen">
+      <Welcome />
+      <AboutMe />
+    </div>
   );
 }
 

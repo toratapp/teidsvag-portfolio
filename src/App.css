@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 550 !important;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2.2rem !important;
+}
+
+h2 {
+  font-size: 1.7rem !important;
+}

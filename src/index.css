@@ -12,14 +12,3 @@
   color: #FFFFFF;
   background-color: #333333;
 }
-
-body {
-  margin: 0;
-}
-
-h1, h2, h3 {
-  font-family: "Roboto Slab", Georgia, serif;
-  font-optical-sizing: auto;
-  font-weight: 550;
-  font-style: normal;
-}
