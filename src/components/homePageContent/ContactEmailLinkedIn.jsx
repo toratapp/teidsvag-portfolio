@@ -1,8 +1,10 @@
 function ContactEmailLinkedIn() {
   return (
-    <div className="mt-9">
-      <p className="text-xl">You&apos;re welcome to</p>
-      <a href="mailto:tora@teidsvag.com" className="text-xl block inter-text-link text-primary">Send me an email &gt;</a>
+    <div className="mt-9 text-xl">
+      <p>You&apos;re welcome to</p>
+      <a href="mailto:tora@teidsvag.com" className="block inter-text-link text-primary">Send me an email &gt;</a>
+      <p className="mt-4">Or you can contact me on my</p>
+      <a href="https://linkedin.com/in/toraoeidsvag/" className="block inter-text-link text-primary">LinkedIn page &gt;</a>
     </div>
    );
 }
