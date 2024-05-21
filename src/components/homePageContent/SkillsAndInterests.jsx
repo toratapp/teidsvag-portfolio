@@ -1,9 +1,8 @@
 function SkillsAndInterests() {
   return ( 
-    <div className="mt-6">
+    <div className="m-6">
         <p className="font-bold tracking-wide">Skills</p>
-        <p>- HTML</p>
-        <p>- CSS</p>
+        <p>- HTML & CSS</p>
         <p>- Javascript</p>
         <p>- React</p>
         <p>- Bootstrap</p>

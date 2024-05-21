@@ -2,7 +2,7 @@ import tora from "../../assets/tora.jpg";
 
 function ToraImageAndText() {
   return ( 
-    <div className="mt-6 flex flex-row gap-5 items-center">
+    <div className="m-6 flex flex-row gap-5 items-center">
     <figure className="max-w-36 flex-1">
       <img src={tora} className="rounded-br-3xl" alt="Tora headshot" />
     </figure>
