@@ -53,11 +53,12 @@ h3 {
   border-bottom: 2px solid #ffffff;
 }
 
-.contact-email-linkedin-section, .card {
-  background-color: #3D3D3D;
+.contact-email-linkedin-section {
+  background-color: #292929;
 }
 
 .card {
+  background-color: #3D3D3D;
   border-top: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
 }
