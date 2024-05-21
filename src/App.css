@@ -44,6 +44,15 @@ h3 {
     "slnt" -10;
 }
 
+.welcome-section {
+  background-image: url("field.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: center;
+  background-size: auto;
+  border-bottom: 2px solid #ffffff;
+}
+
 .contact-email-linkedin-section, .card {
   background-color: #3D3D3D;
 }
