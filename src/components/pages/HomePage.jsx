@@ -4,7 +4,7 @@ import Welcome from "../homePageContent/Welcome";
 
 function HomePage() {
   return ( 
-    <div className="mt-20 min-h-screen">
+    <div className="mt-20 min-h-screen max-w-screen-xl mx-auto">
       <Welcome />
       <AboutMe />
       <WebsitesSection />
