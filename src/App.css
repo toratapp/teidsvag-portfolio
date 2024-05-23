@@ -45,7 +45,7 @@ h3 {
 }
 
 .welcome-section {
-  background-image: url("./assets/field.jpg");
+  background-image: url("./assets/field-2200.jpg");
   background-repeat: no-repeat;
   background-clip: border-box;
   background-position: center;
@@ -61,4 +61,64 @@ h3 {
   background-color: #3D3D3D;
   border-top: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
+}
+
+.skills-section p {
+  border-bottom: solid 3px #161616;
+}
+
+.skills-section h3 {
+  margin-bottom: -20px !important;
+}
+
+@media (min-width: 1024px) {
+  .about-me-h1 {
+    grid-area: about-heading;
+  }
+
+  .tora-image-and-text {
+    grid-area: tora;
+  }
+
+  .skills-section {
+    grid-area: skills;
+  }
+
+  .interests-section {
+    grid-area: interests;
+    margin-top: -198px !important;
+  }
+
+  .bio-p {
+    margin-top: 20px !important;
+  }
+
+  .contact-email-linkedin-section {
+    grid-area: contact;
+  }
+
+  .about-me-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+    "about-heading about-heading"
+    "tora skills"
+    "interests skills"
+    "contact contact";
+  }
+}
+
+@media (min-width: 1130px) {
+  .about-me-section {
+    grid-template-columns: 410px 1fr !important;
+  }
+
+  .skills-section {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    margin: 24px 24px 24px 40px !important;
+  }
+
+  .interests-section {
+    margin-top: -148px !important;
+  }
+
 }
