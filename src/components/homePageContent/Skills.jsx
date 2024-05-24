@@ -12,7 +12,7 @@ function Skills() {
       <p className="h-16">User experience<br></br>design</p>
       <p className="h-16">Interaction<br></br>design</p>
       <p className="h-16">Graphic<br></br>design</p>
-      <p className="h-16">Adobe XD</p>
+      <p className="h-16 pt-6">Adobe XD</p>
       <p className="h-16">Adobe<br></br>Illustrator</p>
       <p className="h-16">Adobe<br></br>Photoshop</p>
       <p className="h-16">Adobe<br></br>InDesign</p>
